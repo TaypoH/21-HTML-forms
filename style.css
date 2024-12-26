@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+}
+
+p {
+    margin: 40px 0 40px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+    width: 100%;
+    max-width: 800px;
+}
+
+label {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 10px 10px 10px 0;
+}
+
+span {
+    margin: 5px 5px 5px 0;
+    width: 22%;
+}
+
+input,
+select,
+textarea {
+    width: 78%; 
+    padding: 10px; 
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    padding: 8px;
+    margin: 8px;
+    width: 76%;
+    align-self: flex-end;
+}
+
+.phone {
+    display: flex;
+    gap: 10px;
+    width: 78%;
+}
+
+.name {
+    display: flex;
+    gap: 10px;
+    width: 78%;
+}
+
+
+input:valid {
+    border: 2px solid green;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
